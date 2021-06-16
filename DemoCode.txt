@@ -1,0 +1,27 @@
+So I just created a folder:
+C:\Users\ranab\PycharmProjects\LearnGit
+
+from Git bash entered the folder and created this .txt file. 
+
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git init
+Initialized empty Git repository in C:/Users/ranab/PycharmProjects/LearnGit/.git/
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        DemoCode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$
+
+
