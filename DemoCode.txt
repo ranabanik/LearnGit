@@ -69,3 +69,8 @@ To https://github.com/ranabanik/LearnGit.git
 
 We are in the Einstein branch. 
 
+-------------------------------->>>
+
+Satyendranath Bose was a Bengali/Indian mathematician. 
+
+
