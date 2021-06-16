@@ -24,4 +24,45 @@ nothing added to commit but untracked files present (use "git add" to track)
 ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
 $
 
+Editing the file again. 
+
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git remote -v
+origin  https://github.com/ranabanik/LearnGit.git (fetch)
+origin  https://github.com/ranabanik/LearnGit.git (push)
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git add DemoCode.txt
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   DemoCode.txt
+
+(base)
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git commit -m "Demo text file edited and added, committing" DemoCode.txt
+[master (root-commit) 6d2e5b5] Demo text file edited and added, committing
+ 1 file changed, 27 insertions(+)
+ create mode 100644 DemoCode.txt
+(base)
+
+ranab@banikr MINGW64 ~/PycharmProjects/LearnGit (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 559 bytes | 559.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ranabanik/LearnGit.git
+ * [new branch]      master -> master
+
+
 
