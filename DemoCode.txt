@@ -1,3 +1,7 @@
+Today Tirtha is learning Git.
+edit xyz
+
+
 So I just created a folder:
 C:\Users\ranab\PycharmProjects\LearnGit
 
